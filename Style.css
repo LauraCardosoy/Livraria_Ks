@@ -1,0 +1,68 @@
+/**{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  background: black;
+ 
+}*/
+
+body{
+    text-align: center;
+    align-content: center;
+    background: black;
+    color: white;
+    margin: 16rem auto 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  #bg-image{
+    background: url("https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
+    
+    position: absolute;
+    inset: 0;
+    opacity: 0.3;
+    z-index: -1;
+  
+  
+   
+  } 
+  h1{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    
+  }
+  
+  h1 span{
+  color:rgb(157, 0, 131);
+  }
+  p{
+    font-size: 1.25rem;
+    margin-bottom: 4.5rem;
+  }
+  
+  a{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  
+    text-decoration: none;
+    border-radius:  .5rem;
+    background-color: rgba(157, 0, 131);
+    color: white;
+  
+    transition: background-color 300ms;
+  
+    
+  }
+  a:hover{
+    background: rgb(97, 4, 81);
+  }
+  
+  @media (width < 40rem){
+    html{
+      font-size: 70%;
+    }
+  
+  }
+  
+  
